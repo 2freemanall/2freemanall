@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	sharedrepository = 0600
+	worktree = /data/data/com.termux/files/home
+[receive]
+	denyNonFastforwards = true
+[remote "origin"]
+	url = https://github.com/2freemanall/2freemanall.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[status]
+	showUntrackedFiles = no
+[yadm]
+	managed = true
